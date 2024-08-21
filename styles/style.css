@@ -130,9 +130,9 @@
 .theme-menu__button::after {
   content: '';
   display: block;
+  block-size: 2px;
   transform-origin: left;
   transform: scaleX(0);
-  block-size: 2px;
   background-color: var(--accent-color);
   transition: transform 0.3s ease;
 }
