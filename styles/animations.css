@@ -73,12 +73,12 @@
 
 .like-icon.is-liked .main-body {
   fill: var(--heart-color);
-  animation: fill 0.3s 00.5s linear;
+  animation: fill 0.3s 0.05s linear;
 }
 
 .like-icon.is-liked .contour {
   fill: var(--heart-color);
-  animation: fill 0.3s 00.6s linear;
+  animation: fill 0.3s 0.06s linear;
 }
 
 .like-icon.is-liked .heart {
