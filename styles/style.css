@@ -361,7 +361,6 @@ dialog::backdrop {
   font-size: 14px;
   font-weight: var(--font-weight);
   text-transform: uppercase;
-  font-weight: var(--font-weight);
 }
 
 form .button {
