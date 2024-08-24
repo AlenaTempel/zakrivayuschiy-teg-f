@@ -59,7 +59,7 @@
   color: var(--accent-color);
   font-size: clamp(3.0625rem, 2.7768rem + 1.4286vw, 4.0625rem);
   text-transform: uppercase;
-  font-variation-settings: "wght" var(--font-weight);
+  font-weight: var(--font-weight);
 }
 
 .header__description {
@@ -204,7 +204,7 @@
   padding: 3px 10px;
   align-self: start;
   line-height: 1.3;
-  font-weight: var(--font-weight-title);
+  font-variation-settings: "wght" var(--font-weight-title);
   font-size: 18px;
 }
 
@@ -361,7 +361,7 @@ dialog::backdrop {
   font-size: 14px;
   font-weight: var(--font-weight);
   text-transform: uppercase;
-  font-variation-settings: "wght" var(--font-weight);
+  font-weight: var(--font-weight);
 }
 
 form .button {
